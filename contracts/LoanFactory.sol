@@ -1,8 +1,5 @@
 pragma solidity >= 0.8.0;
-
-
 contract LoanFactory {
-
     uint loanId = 0;
 
     mapping (address => uint) public employmentLoanOwners;
