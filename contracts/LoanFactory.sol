@@ -41,7 +41,6 @@ contract LoanFactory {
         employmentLoanOwners[msg.sender] = loanId;
 
         return loanId;
-        
     }
 
     function getLoanAddressByID(uint _id) public view returns (EmploymentLoan memory) {
