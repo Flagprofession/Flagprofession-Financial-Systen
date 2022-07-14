@@ -4,7 +4,7 @@ contract LoanFactory {
     uint loanId = 0;
     mapping (address => uint) public employmentLoanOwners;
     struct EmploymentLoan{
-        int _borrowAmount;
+         int _borrowAmount;
          int8 _interestRate;
          int8  _paybackMonths;
          int    _collateralAmount;
