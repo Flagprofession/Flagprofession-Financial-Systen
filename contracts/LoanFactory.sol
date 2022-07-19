@@ -12,7 +12,6 @@ contract LoanFactory {
          address  _borrower;
     }
     EmploymentLoan[]public idToLoan;
-
     function createNewLoan(
         int _borrowAmount,
         int8 _interestRate,
