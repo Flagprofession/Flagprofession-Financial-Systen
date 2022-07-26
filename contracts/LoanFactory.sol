@@ -32,7 +32,6 @@ contract LoanFactory {
             _borrower:_borrower
             //_priceFeedDecimals:_priceFeedDecimals
         }
-           
         );
         loanId++;
         idToLoan[loanId] = newLoan;
