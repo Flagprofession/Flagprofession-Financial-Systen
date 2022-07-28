@@ -8,8 +8,7 @@ contract TradeableCashflow is ERC721 {
     address owner,
     string memory _name,
     string memory _symbol
-    //ISuperfluid host,
-    //ISuperToken acceptedToken
+
   )
     ERC721 ( _name, _symbol )
       {
