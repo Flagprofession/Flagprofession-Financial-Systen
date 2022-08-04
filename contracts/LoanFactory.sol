@@ -29,7 +29,6 @@ contract LoanFactory {
             _collateralAmount:_collateralAmount,
             _employer:_employer,
             _borrower:_borrower
-            //_priceFeedDecimals:_priceFeedDecimals
         }
         );
         loanId++;
