@@ -2,7 +2,6 @@ pragma solidity  0.8.6;
 contract LoanFactory {
     uint loanId = 0;
     mapping (address => uint) public employmentLoanOwners;
-    
     struct EmploymentLoan{
          int _borrowAmount;
          int8 _interestRate;
