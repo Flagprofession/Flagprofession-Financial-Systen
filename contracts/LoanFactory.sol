@@ -31,6 +31,7 @@ contract LoanFactory {
             _borrower:_borrower
         }
         );
+        
         loanId++;
         idToLoan[loanId] = newLoan;
         employmentLoanOwners[msg.sender] = loanId;
